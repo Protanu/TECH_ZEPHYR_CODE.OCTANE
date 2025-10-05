@@ -9,7 +9,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.18-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.23.22-FF0055?style=flat-square&logo=framer)](https://www.framer.com/motion/)
 
-[🚀 Live Demo](#) • [📖 Documentation](#features) • [🛠️ Installation](#installation) • [🎨 Features](#features)
+[🚀 Live Demo](https://code-octane.vercel.app) • [📖 Documentation](#features) • [🛠️ Installation](#installation) • [🎨 Features](#features)
 
 </div>
 
