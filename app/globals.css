@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: var(--font-inter);
+  }
+}
+
+@layer utilities {
+  .aurora-gradient {
+    background: linear-gradient(
+      135deg,
+      rgba(59, 130, 246, 0.1) 0%,
+      rgba(147, 51, 234, 0.1) 25%,
+      rgba(236, 72, 153, 0.1) 50%,
+      rgba(59, 130, 246, 0.1) 75%,
+      rgba(147, 51, 234, 0.1) 100%
+    );
+    background-size: 400% 400%;
+    animation: aurora 8s ease-in-out infinite;
+  }
+  
+  @keyframes aurora {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
